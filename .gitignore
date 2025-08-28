@@ -136,6 +136,5 @@ generated/
 gen/
 
 DEPLOYMENT_OPTIONS.md
-INSTALL.md
 JETTY_FIX.md
 QUICK_START.md
