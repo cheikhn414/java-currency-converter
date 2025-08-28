@@ -40,10 +40,6 @@ currency-converter/
 ├── pom.xml                                 # Configuration Maven
 ├── README_fr.md                            # Documentation française
 ├── README.md                               # Documentation anglaise
-├── QUICK_START.md                          # Guide de démarrage rapide
-├── JETTY_FIX.md                           # Guide de correction Jetty
-├── DEPLOYMENT_OPTIONS.md                  # Options de déploiement
-├── INSTALL.md                             # Installation détaillée
 ├── src/
 │   └── main/
 │       ├── java/com/currencyconverter/
