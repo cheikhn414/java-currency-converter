@@ -1,0 +1,141 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# Eclipse
+.eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Application specific
+currency-converter.log*
+application-*.log
+
+# Jetty
+jetty-*.xml
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Spring Boot (if using Spring Boot later)
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+# Security
+*.key
+*.pem
+*.p12
+*.keystore
+*.jks
+
+# Configuration files with sensitive data
+application-local.properties
+application-dev.properties
+config/local/
+secrets/
+
+# Node modules (if frontend tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+h2/
+
+# Cache
+.cache/
+*.pid
+
+# Test results
+test-results/
+coverage/
+*.coveragexml
+
+# Generated files
+generated/
+gen/
+
+DEPLOYMENT_OPTIONS.md
+INSTALL.md
+JETTY_FIX.md
+QUICK_START.md
