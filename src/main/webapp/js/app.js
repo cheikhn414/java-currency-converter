@@ -237,16 +237,16 @@ class CurrencyConverter {
         
         if (loading) {
             this.elements.buttonText.style.display = 'none';
-            this.elements.loadingSpinner.style.display = 'block';
+            this.elements.loadingSpinner.classList.remove('hidden');
         } else {
             this.elements.buttonText.style.display = 'block';
-            this.elements.loadingSpinner.style.display = 'none';
+            this.elements.loadingSpinner.classList.add('hidden');
         }
     }
     
     showResult() {
-        this.elements.result.style.display = 'block';
-        this.elements.error.style.display = 'none';
+        this.elements.result.classList.remove('hidden');
+        this.elements.error.classList.add('hidden');
         
         this.elements.result.scrollIntoView({ 
             behavior: 'smooth', 
@@ -256,8 +256,8 @@ class CurrencyConverter {
     
     showError(message) {
         this.elements.errorMessage.textContent = message;
-        this.elements.error.style.display = 'flex';
-        this.elements.result.style.display = 'none';
+        this.elements.error.classList.remove('hidden');
+        this.elements.result.classList.add('hidden');
         
         this.elements.error.scrollIntoView({ 
             behavior: 'smooth', 
@@ -266,8 +266,8 @@ class CurrencyConverter {
     }
     
     hideMessages() {
-        this.elements.result.style.display = 'none';
-        this.elements.error.style.display = 'none';
+        this.elements.result.classList.add('hidden');
+        this.elements.error.classList.add('hidden');
     }
 }
 
